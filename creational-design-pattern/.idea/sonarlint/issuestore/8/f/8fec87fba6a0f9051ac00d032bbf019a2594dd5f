@@ -1,0 +1,8 @@
+
+`
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(ÔÜã£þÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(äŽ»­8îÛ†Žä/
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(Û½Æ¹ûÿÿÿÿ8òÛ†Žä/
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›ªðýÿÿÿÿ8ôÛ†Žä/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†ÀÙ§ûÿÿÿÿ

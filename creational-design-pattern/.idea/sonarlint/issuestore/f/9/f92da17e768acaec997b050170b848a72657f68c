@@ -1,0 +1,16 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÿâöøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íäªıÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(á˜£
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íäªıÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŒŞ·ºúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ì™áıûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íäªıÿÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ïàƒ\
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íäªıÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©ÁÕ¬
+\
+java:S1854>":Remove this useless assignment to local variable "person".(ëñòŠıÿÿÿÿ8°‡Óè/
+t
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ä¦Óëşÿÿÿÿ
