@@ -1,14 +1,9 @@
-package br.com.cod3r.facade.callCenter.services;
+package br.com.cod3r.facade.callCenter.after.services;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import br.com.cod3r.facade.callCenter.after.model.Card;
+import br.com.cod3r.facade.callCenter.after.model.Register;
 
-import br.com.cod3r.facade.callCenter.model.Card;
-import br.com.cod3r.facade.callCenter.model.Register;
+import java.util.*;
 
 public class RegisterService {
 	private Map<Long, List<Register>> memory;

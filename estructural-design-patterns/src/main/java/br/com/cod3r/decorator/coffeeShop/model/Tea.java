@@ -9,7 +9,7 @@ public class Tea implements Drink {
 
 	@Override
 	public Double getPrice() {
-		return 1d;
+		return 1.0;
 	}
 
 	

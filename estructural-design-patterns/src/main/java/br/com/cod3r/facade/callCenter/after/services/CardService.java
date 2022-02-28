@@ -1,9 +1,9 @@
-package br.com.cod3r.facade.callCenter.services;
+package br.com.cod3r.facade.callCenter.after.services;
+
+import br.com.cod3r.facade.callCenter.after.model.Card;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import br.com.cod3r.facade.callCenter.model.Card;
 
 public class CardService {
 	private Map<Long, Card> memory;
