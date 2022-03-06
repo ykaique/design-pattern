@@ -1,14 +1,14 @@
-package br.com.cod3r.mediator.swing;
+package br.com.cod3r.mediator.swing.before;
 
 import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-import br.com.cod3r.mediator.swing.components.AddButton;
-import br.com.cod3r.mediator.swing.components.Label;
-import br.com.cod3r.mediator.swing.components.ResetButton;
-import br.com.cod3r.mediator.swing.components.State;
+import br.com.cod3r.mediator.swing.before.components.AddButton;
+import br.com.cod3r.mediator.swing.before.components.Label;
+import br.com.cod3r.mediator.swing.before.components.ResetButton;
+import br.com.cod3r.mediator.swing.before.components.State;
 
 public class Client {
 	private AddButton button;

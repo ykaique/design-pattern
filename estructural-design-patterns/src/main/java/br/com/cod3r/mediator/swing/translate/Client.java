@@ -1,9 +1,9 @@
-package br.com.cod3r.mediator.translate;
+package br.com.cod3r.mediator.swing.translate;
 
-import br.com.cod3r.mediator.translate.mediator.Mediator;
-import br.com.cod3r.mediator.translate.model.EnglishUser;
-import br.com.cod3r.mediator.translate.model.PortugueseUser;
-import br.com.cod3r.mediator.translate.model.User;
+import br.com.cod3r.mediator.swing.translate.mediator.Mediator;
+import br.com.cod3r.mediator.swing.translate.model.EnglishUser;
+import br.com.cod3r.mediator.swing.translate.model.PortugueseUser;
+import br.com.cod3r.mediator.swing.translate.model.User;
 
 public class Client {
 

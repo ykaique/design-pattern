@@ -1,9 +1,9 @@
-package br.com.cod3r.mediator.translate.mediator;
+package br.com.cod3r.mediator.swing.translate.mediator;
+
+import br.com.cod3r.mediator.swing.translate.model.User;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import br.com.cod3r.mediator.translate.model.User;
 
 public abstract class Mediator {
 	protected Map<String, User> users = new HashMap<String, User>();

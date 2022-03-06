@@ -1,6 +1,6 @@
-package br.com.cod3r.mediator.translate.model;
+package br.com.cod3r.mediator.swing.translate.model;
 
-import br.com.cod3r.mediator.translate.mediator.Mediator;
+import br.com.cod3r.mediator.swing.translate.mediator.Mediator;
 
 public final class PortugueseUser extends User {
 
