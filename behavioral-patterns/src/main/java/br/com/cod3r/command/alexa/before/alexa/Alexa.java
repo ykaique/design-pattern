@@ -1,10 +1,10 @@
-package br.com.cod3r.command.alexa.alexa;
+package br.com.cod3r.command.alexa.before.alexa;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import br.com.cod3r.command.alexa.lights.PhillipsHueLight;
-import br.com.cod3r.command.alexa.lights.XiaomiLight;
+import br.com.cod3r.command.alexa.before.lights.PhillipsHueLight;
+import br.com.cod3r.command.alexa.before.lights.XiaomiLight;
 
 public class Alexa {
 	private Map<String, Object> integrations;

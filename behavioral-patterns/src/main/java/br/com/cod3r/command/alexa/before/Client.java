@@ -1,6 +1,6 @@
-package br.com.cod3r.command.alexa;
+package br.com.cod3r.command.alexa.before;
 
-import br.com.cod3r.command.alexa.alexa.Alexa;
+import br.com.cod3r.command.alexa.before.alexa.Alexa;
 
 public class Client {
 
