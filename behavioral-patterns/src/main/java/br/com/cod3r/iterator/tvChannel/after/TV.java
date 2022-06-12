@@ -1,8 +1,10 @@
-package br.com.cod3r.iterator.tvChannel;
+package br.com.cod3r.iterator.tvChannel.after;
 
+import java.util.Iterator;
 import java.util.Random;
 
-public class TV {
+
+public class TV implements Iterable<Integer> {
 	private Integer[] channels;
 	
 	public void searchAvaiableChannels() {
@@ -27,4 +29,10 @@ public class TV {
 		}
 		System.out.println("No signal!");
 	}
+
+	@Override
+	public Iterator<Integer> iterator() {
+		return new ChannelIterator(channels);
+	}
+
 }
