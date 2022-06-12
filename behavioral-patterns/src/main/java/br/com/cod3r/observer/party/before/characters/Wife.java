@@ -1,4 +1,4 @@
-package br.com.cod3r.observer.party.characters;
+package br.com.cod3r.observer.party.before.characters;
 
 public class Wife {
 	private Doorman doorman;
