@@ -17,10 +17,15 @@ public class Game {
     public void startLoop() throws IOException {
 		BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Hi! I'm a good ghost. Help me to catch that bad PacMan...");
-		while(exit == false) {
-			System.out.println("Choose what will happen next...\n1: Spot the PacMan\n"
-					+ "2: Lose the PacMan\n3: PacMan turns special\n4: PacMan is regular again\n"
-					+ "5: Eaten by PacMan\n6: Reach the base\n0: Exit");
+		while(!exit) {
+			System.out.println("Choose what will happen next...\n" +
+                    "1: Spot the PacMan\n"
+					+ "2: Lose the PacMan\n" +
+                    "3: PacMan turns special\n" +
+                    "4: PacMan is regular again\n" +
+                    "5: Eaten by PacMan\n" +
+                    "6: Reach the base\n" +
+                    "0: Exit");
 			String option = buffer.readLine();
             System.out.println("\n\n");
             listeners.forEach(l -> l.onAction(option));
