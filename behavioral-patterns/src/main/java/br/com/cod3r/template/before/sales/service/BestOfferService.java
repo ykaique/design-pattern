@@ -1,10 +1,11 @@
-package br.com.cod3r.template.sales.service;
+package br.com.cod3r.template.before.sales.service;
+
+import br.com.cod3r.template.before.sales.model.Cart;
+import br.com.cod3r.template.before.sales.model.Category;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import br.com.cod3r.template.sales.model.Cart;
-import br.com.cod3r.template.sales.model.Category;
 
 public class BestOfferService {
 	Map<Category, Double> discountsByCategory;
